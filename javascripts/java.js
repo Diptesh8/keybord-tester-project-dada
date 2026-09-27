@@ -5,8 +5,8 @@
 const showInDisplay = document.getElementById('screen-display');
 
 document.addEventListener('keydown', function(event) {
-
-    console.log(event.code);
-
+  const oldData =showInDisplay.innerText; 
+  const newData =event.key;
+  showInDisplay.innerText=oldData+newData;
 });
 
