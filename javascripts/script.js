@@ -8,5 +8,7 @@ document.addEventListener('keydown', function(event) {
   const oldData =showInDisplay.innerText; 
   const newData =event.key;
   showInDisplay.innerText=oldData+newData;
-});
+//  newData.classList.add('bg-orange-400');
+})
+
 
